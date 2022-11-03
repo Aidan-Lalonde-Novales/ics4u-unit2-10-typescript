@@ -2,13 +2,25 @@
  * This is the main code that runs
  * with the Vehicle Class.
  *
- * By:      Aidan Lalonde-Novales (mostly Mr Coxall)
+ * By:      Aidan Lalonde-Novales
  * Version: 1.0
- * Since:   2022-11-01
+ * Since:   2022-11-02
  */
 
 import Bike from './Bike'
 import Truck from './Truck'
+
+/**
+ * Example of a section that would crash the program by attempting
+ * to instantiate an abstract class.
+ *
+ * import Vehicle from './Vehicle'
+ *
+ * // new Sedan
+ * console.log('Created Sedan.')
+ * const sedan = new Vehicle(160, 'Black')
+ * console.log(`\nMax Speed: ${Number(sedan.getMaxSpeed())}\n`)
+ */
 
 // new BMX Bike
 console.log('Created BMX Bike.')
